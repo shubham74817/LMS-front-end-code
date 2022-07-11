@@ -1,0 +1,41 @@
+.container{
+  
+/* border: 2px solid red; */
+
+}
+
+.container form{
+    display: grid;
+    grid-template-columns: auto auto ;
+    grid-column-gap: 0px;
+    grid-row-gap: 00px;
+    padding: 5px;
+}
+
+form div{
+    /* background-color: rgba(255, 255, 255, 0.8); */
+        /* border: 1px solid black; */
+        /* padding: 20px; */
+        font-size: 15px;
+        text-align: left;
+        color:#717171; ;
+        
+}
+form div div input{
+    width: 30vw;
+    height: 5vh;
+}
+
+form div div select{
+    width: 30vw;
+    height: 5vh;
+}
+
+
+.props{
+    margin-top: 3vh;
+}
+.div1,.div3,.div5,.div7,.div9{
+    margin-left: 20vw;
+    margin-right: 5vw;
+}

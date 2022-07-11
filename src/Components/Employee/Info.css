@@ -1,0 +1,31 @@
+
+
+    /* Designing all grid */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        
+        
+        padding: 100px;
+    }
+      
+    /* Designing all grid-items */
+    .grid-item {
+        
+        border: 1px solid black;
+        padding: 20px;
+        font-size: 20px;
+        text-align: left;
+        color: #707070;
+    }
+    
+    
+    h1 {
+        color: green;
+        text-align: center;
+    }
+    input,select{
+        width:35vw;
+        height: 2.5vw;
+        border-radius: 3%;
+    }

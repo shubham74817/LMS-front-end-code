@@ -1,0 +1,20 @@
+.container-layout .Navbar nav ul div {
+    
+margin-top: 2vh;
+margin-left: 4vw;
+
+}
+.container-layout .Navbar nav ul{
+    display: flex;
+    list-style: none;
+}
+.container-layout .Navbar nav ul li div p{
+    
+    color: #717171;
+    
+}
+.container-layout .Navbar nav ul li div p:active{
+    color:#086288;
+    
+
+}

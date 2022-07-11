@@ -1,0 +1,57 @@
+.container-div{
+    display: flex;
+    height: 80vh;
+    width: 85vw;
+    margin-left: 10vw;
+    margin-top: 10vh;
+    background-color: white
+
+}
+.batchList h5{
+    color: #FAA81D;
+}
+.container-div .input{
+    margin-left: 45vw;
+    margin-top: 4vh;
+    /* background-color: aqua; */
+}
+.container-div .input input{
+    width: 25vw;
+    background-color: #BCBCCB;
+}
+
+.container-div .btn {
+    margin-top: 4vh;
+    margin-left: 1vw;
+    
+}
+.container-div .btna button{
+    background-color:#00811A80 ;
+    border-radius: 4px;
+    border-color:#00811A80 ;
+    cursor: pointer;
+}
+.container-div .btnr button{
+    background-color: #CE000E;
+    border-radius: 4px;
+    border-color:#CE000E ;
+    cursor: pointer;
+}
+.table{
+    margin-top: 10vh;
+    position: absolute;
+    right: 24vw;
+    margin-left: 10vw;
+    width: auto;
+    
+
+}
+
+
+/* .table th,td
+{
+    border: 2px solid red; 
+    padding-left:40px;
+    margin-left: 20vw;
+
+} */

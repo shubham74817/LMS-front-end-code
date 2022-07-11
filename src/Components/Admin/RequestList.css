@@ -1,0 +1,115 @@
+
+.container{
+    border: 2px solid rgb(245, 242, 242);
+    display: flex;
+    flex-flow: column wrap;
+    background-color: #BCBCCB;
+}
+
+.header{
+    border: 2px solid rgb(245, 242, 242);
+    height: 10vh;
+    width: 100vw;
+    background-color: #fff;
+}
+.container .header img{
+    height: 6vh;
+    
+}
+.header .header1 {
+    position: absolute;
+    top: 2vh;
+    left: 46vw;
+}
+.header .header1 input {
+    width: 40vw;
+    position: relative;
+    right: 12vw;
+    background-color: #0000000A;
+    font-style:  Avenir;
+    border-radius: 5px;
+}
+.header .header1 button{
+    position: relative;
+    left: 3.5vw;
+    color: #086288;
+    
+}
+
+
+.aside{
+    border: 2px solid rgb(245, 242, 242);
+    height: 92.3vh;
+    width: 7vw;
+    position: relative;
+    bottom: 4vh;
+    background-color: #fff;
+}
+.aside div p{
+    position: relative;
+    bottom: 3vh;
+    font-size: 10px;
+    left: 2vw;
+    color: #086288;
+}
+
+.aside div img{
+    position: relative;
+    left: 2.5vw;
+    height: 19px;
+}
+/* .aside div:active{
+    
+} */
+.aside div p:active{
+    color: #fff;
+    background-color: #086288;
+}
+
+.footer {
+    display: flex;
+    
+    background-color: #fff;
+    border: 2px solid rgb(245, 242, 242);
+    height: 87vh;
+    width: 85vw;
+    position: absolute;
+    left: 10vw;
+    top: 16vh;
+}
+.footer .footerinputbtn{
+    position: relative;
+    left: 50vw;
+}
+.footer .batchlist{
+color: #FAA81D;
+}
+.footer .footerinputbtn input{
+    width: 20vw;
+    margin-left: 6vw;
+    height: 2.5vh;
+}
+/* .footer .footerinputbtn button{
+    background-color:#FAA81D ;
+    color: #fff;
+    border: #fff;
+    border-radius: 4px;
+    height: 5vh;
+    margin-left: 2vw;
+} */
+table {
+    position: absolute;
+    top: 5vw;
+    
+    /* border-spacing: 2vw; */
+    width: 100%;
+}
+  table, thead,tbody, th,td{
+    /* border: 1px solid black; */
+    border-collapse:collapse
+  }
+  th{
+    background-color: #E9EEF7;
+  }
+
+ 

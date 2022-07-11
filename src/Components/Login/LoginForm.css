@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+
+body {
+  background-image: url("blurimage.png");
+  background-color: #cccccc;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form-img-bgclrimg {
+  display: flex;
+  flex-direction: column;
+}
+.form-img-bgclrimg .bgclrimg img {
+  position: absolute;
+  height: 85vh;
+  width: 70vw;
+  bottom: 10vh;
+  top: 20vh;
+  left: 15vw;
+}
+
+.img-form {
+  position: absolute;
+  left: 58%;
+  top: 20vh;
+  width: 25vw;
+  height: 80vh;
+  background-color:#000000A2;
+  border-left: 1px solid rgb(83, 81, 81);
+}
+.img img {
+  position: absolute;
+  top: 10vh;
+  width: 15vw;
+}
+.form{
+    position: absolute;
+    top:30vh
+    
+}
+/* .form form div{
+    line-height: 4vh;
+} */
+.form form h2 {
+  font-family: "Abril Fatface", cursive;
+  color: #ffaa17;
+  text-align: center;
+}
+.form form p {
+  color: #ffffff;
+  text-align: left;
+  font-size: 12px;
+}
+.form form input {
+  width: 327px;
+  height: 48px;
+  top: 492px;
+  left: 1252px;
+  border-radius: 8px;
+  
+}
+.form form button {
+  top: 648px;
+  left: 1252px;
+  width: 327px;
+  height: 48px;
+}
