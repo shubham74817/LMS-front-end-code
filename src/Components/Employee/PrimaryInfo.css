@@ -35,7 +35,32 @@ form div div select{
 .props{
     margin-top: 3vh;
 }
-.div1,.div3,.div5,.div7,.div9{
+.div1,.div3,.div5,.div7,.div9,.div11{
     margin-left: 20vw;
     margin-right: 5vw;
+}
+
+.footer{
+    border: 1px solid #717171;
+    display: flex;
+    width: 71vw;
+    margin-left: 20.5vw;
+    height: 10vh;
+    position: fixed;
+
+}
+.footer .div11 .props1 button{
+    height: 6vh;
+    margin-right: 48vw;
+    margin-left: initial;
+    margin-left: -18vw;
+    width: 7vw;
+    margin-top: 2vh;
+}
+
+.footer .div12 .props2 button{
+    height: 6vh;
+    margin-top: 2vh;
+    width: 7vw;
+    
 }

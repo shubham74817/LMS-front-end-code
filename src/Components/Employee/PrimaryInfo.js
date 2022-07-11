@@ -1,13 +1,15 @@
 import React from "react";
 import "./PrimaryInfo.css";
+import {useNavigate} from "react-router-dom"
 
 function PrimaryInfo() {
+  const navigate = useNavigate();
   return (
     <div className="container">
       <form action="">
         <div className="div1">
           {" "}
-          <div className="col1">Employee ID </div>{" "}
+          <div className="props">Employee ID </div>{" "}
           <div>
             <input type="text" />
           </div>
@@ -74,7 +76,23 @@ function PrimaryInfo() {
             <select name="" id=""></select>
           </div>{" "}
         </div>
+        
       </form>
+
+      <div className="footer">
+        <div className="div11">
+          {" "}
+          <div className="props1">
+            <button onClick={() => navigate(-1)}>Previous</button>
+          </div>{" "}
+        </div>
+        <div className="div12">
+          {" "}
+          <div className="props2">
+            <button onClick={() => navigate("/SecondaryInfo")}>Next</button>
+          </div>{" "}
+        </div>
+      </div>
     </div>
   );
 }

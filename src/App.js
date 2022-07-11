@@ -11,13 +11,13 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import LayoutEmployee from "./Components/Employee/LayoutEmployee";
 import PrimaryInfo from "./Components/Employee/PrimaryInfo";
-// import SecondaryInfo from "./Components/Employee/SecondaryInfo";
-// import EducationDetails from "./Components/Employee/EducationDetails";
-// import Experience from "./Components/Employee/Experience";
-// import AddressDetails from "./Components/Employee/AddressDetails";
-// import BankDetails from "./Components/Employee/BankDetails";
-// import TechnicalSkills from "./Components/Employee/TechnicalSkills";
-// import Contact from "./Components/Employee/Contact";
+import SecondaryInfo from "./Components/Employee/SecondaryInfo";
+import EducationDetails from "./Components/Employee/EducationDetails";
+import Experience from "./Components/Employee/Experience";
+import AddressDetails from "./Components/Employee/AddressDetails";
+import BankDetails from "./Components/Employee/BankDetails";
+import TechnicalSkills from "./Components/Employee/TechnicalSkills";
+import Contact from "./Components/Employee/Contact";
 
 
 
@@ -52,13 +52,13 @@ function App() {
       <Routes>
       <Route path="/" element={<LayoutEmployee />}>
            <Route index element={<PrimaryInfo />} />
-          {/* <Route path="SecondaryInfo" element={<SecondaryInfo />} />
+          <Route path="SecondaryInfo" element={<SecondaryInfo />} />
           <Route path="EducationDetails" element={<EducationDetails />} />
           <Route path="AddressDetails" element={<AddressDetails />} />
           <Route path="BankDetails" element={<BankDetails />} />
           <Route path="TechnicalSkills" element={< TechnicalSkills />} />
           <Route path="Experience" element={< Experience />} />
-          <Route path="Contact" element={< Contact />} />  */}
+          <Route path="Contact" element={< Contact />} /> 
           
         </Route>
       </Routes>
