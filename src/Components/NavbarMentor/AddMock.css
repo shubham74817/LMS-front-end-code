@@ -1,0 +1,44 @@
+.form{
+    border: 2px solid #0000003D;
+    line-height: 7px;
+    width: 31%;
+    margin: auto;
+    margin-top: 134px;
+    border-radius: 14px;
+    position: absolute;
+    left: 40vw;
+
+   
+}
+
+.form form h4{
+    color: #086288;
+    font-weight: 600;
+    position: relative;
+    left: 1vw;
+}
+
+.form form div {
+    position: relative;
+    line-height: 0px;
+    left: 6.5vw;
+}
+
+.form form div p{
+    color: #707070;
+    font-size: 13px;
+}
+
+.form form div input,.form form div select{
+width: 15vw;
+height: 3vh;
+}
+
+.form form div button{
+    background-color: #086288;
+    border-radius: 4px;
+    position: relative;
+    left: 19vw;
+    bottom: 1vh;
+    height: 5vh;
+    }

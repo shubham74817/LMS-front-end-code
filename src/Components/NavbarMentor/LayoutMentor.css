@@ -1,0 +1,64 @@
+.container-layout{
+    background-color: #F9F9F9;
+}
+
+.Navbar{
+    border:1px solid black;
+    width: 10%;
+    height: 100vh;
+    background-color: #fff;
+    
+}
+.userMenu{
+    position: absolute;
+    left: 90vw;
+}
+.userMenu select{
+    margin-top: 2vh;
+    height: 3vh;
+    width: 5vw;
+}
+
+.avatar{
+    position: absolute;
+    left: 87vw;
+}
+.avatar img{
+    width: 2.5vw;
+}
+ul{
+    list-style: none;
+}
+nav{
+    
+    position: absolute;
+    top: 15vh;
+}
+
+.header{
+    display: flex;
+    border: 1px solid black;
+    background-color: #fff;
+}
+
+
+.header .input input{
+    margin-left: 17vw;
+    width: 33vw;
+    margin-top: 1vh;
+    background-color: #BCBCCB;
+}
+.header .btn button{
+    margin-top: 1vh;
+    margin-left: 25vw;
+    color: #086288;
+    border-color: #086288;
+    border-radius: 4px;
+}
+
+.LinkBatch:active,.LinkDashboard:active{
+background-color: #086288;
+}
+.LinkBatch p:after ,.LinkDashboard p:active{
+color: #fff;
+}

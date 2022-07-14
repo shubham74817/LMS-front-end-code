@@ -1,4 +1,11 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import Batch from "./Components/NavbarMentor/Batch";
+// import LayoutMentor from "./Components/NavbarMentor/LayoutMentor";
+// import EmployeeList from "./Components/NavbarMentor/EmployeeList"
+// import Dashboard from "./Components/NavbarMentor/Dashboard";
+// import AddMock from "./Components/NavbarMentor/AddMock";
+import LoginForm from "./Components/Login/LoginForm";
+
 // import Layout from "./Components/NavbarAdmin/Layout";
 // import Mentor from "./Components/NavbarAdmin/Mentor";
 // import Request from "./Components/NavbarAdmin/Request";
@@ -9,15 +16,15 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // import Approve from "./Components/NavbarAdmin/Approve";
 
 
-import LayoutEmployee from "./Components/Employee/LayoutEmployee";
-import PrimaryInfo from "./Components/Employee/PrimaryInfo";
-import SecondaryInfo from "./Components/Employee/SecondaryInfo";
-import EducationDetails from "./Components/Employee/EducationDetails";
-import Experience from "./Components/Employee/Experience";
-import AddressDetails from "./Components/Employee/AddressDetails";
-import BankDetails from "./Components/Employee/BankDetails";
-import TechnicalSkills from "./Components/Employee/TechnicalSkills";
-import Contact from "./Components/Employee/Contact";
+// import LayoutEmployee from "./Components/Employee/LayoutEmployee";
+// import PrimaryInfo from "./Components/Employee/PrimaryInfo";
+// import SecondaryInfo from "./Components/Employee/SecondaryInfo";
+// import EducationDetails from "./Components/Employee/EducationDetails";
+// import Experience from "./Components/Employee/Experience";
+// import AddressDetails from "./Components/Employee/AddressDetails";
+// import BankDetails from "./Components/Employee/BankDetails";
+// import TechnicalSkills from "./Components/Employee/TechnicalSkills";
+// import Contact from "./Components/Employee/Contact";
 
 
 
@@ -35,36 +42,43 @@ function App() {
   return (
 
 
-    <BrowserRouter>
+    // <BrowserRouter>
     
-       {/* <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Batch />} />
-          <Route path="blogs" element={<Mentor />} />
-          <Route path="contact" element={<Request />} />
-          <Route path="newbatch" element={<Form />} />
-          <Route path="newmentor" element={<Formanb />} />
-          <Route path="approve" element={< Approve />} />
-          <Route path="reject" element={< Reject />} />
+    //    {/* <Routes>
+    //     <Route path="/" element={<Layout />}>
+    //       <Route index element={<Batch />} />
+    //       <Route path="blogs" element={<Mentor />} />
+    //       <Route path="contact" element={<Request />} />
+    //       <Route path="newbatch" element={<Form />} />
+    //       <Route path="newmentor" element={<Formanb />} />
+    //       <Route path="approve" element={< Approve />} />
+    //       <Route path="reject" element={< Reject />} />
           
-        </Route>
-      </Routes>  */}
-      <Routes>
-      <Route path="/" element={<LayoutEmployee />}>
-           <Route index element={<PrimaryInfo />} />
-          <Route path="SecondaryInfo" element={<SecondaryInfo />} />
-          <Route path="EducationDetails" element={<EducationDetails />} />
-          <Route path="AddressDetails" element={<AddressDetails />} />
-          <Route path="BankDetails" element={<BankDetails />} />
-          <Route path="TechnicalSkills" element={< TechnicalSkills />} />
-          <Route path="Experience" element={< Experience />} />
-          <Route path="Contact" element={< Contact />} /> 
+    //     </Route>
+    //   </Routes>  */}
+    //   <Routes>
+    //   {/* <Route path="/" element={<LayoutEmployee />}>
+    //        <Route index element={<PrimaryInfo />} />
+    //       <Route path="SecondaryInfo" element={<SecondaryInfo />} />
+    //       <Route path="EducationDetails" element={<EducationDetails />} />
+    //       <Route path="AddressDetails" element={<AddressDetails />} />
+    //       <Route path="BankDetails" element={<BankDetails />} />
+    //       <Route path="TechnicalSkills" element={< TechnicalSkills />} />
+    //       <Route path="Experience" element={< Experience />} />
+    //       <Route path="Contact" element={< Contact />} /> 
           
-        </Route>
-      </Routes>
-     </BrowserRouter> 
+    //     </Route> */}
 
- 
+    //     <Route path="/" element={<LayoutMentor />}>
+    //       <Route index element={<Dashboard />}></Route>
+    //       <Route path="/Batch" element={<Batch/>}></Route>
+    //       <Route path="/EmployeeList" element={<EmployeeList/>}></Route>
+    //       <Route path="/AddMock" element={<AddMock AddMock/>}></Route>
+    //     </Route>
+    //   </Routes>
+    //  </BrowserRouter> 
+
+ <LoginForm/>
 
    
   );

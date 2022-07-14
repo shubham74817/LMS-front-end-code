@@ -41,7 +41,7 @@ body {
 }
 .form{
     position: absolute;
-    top:30vh
+    top:22vh
     
 }
 /* .form form div{
@@ -58,7 +58,7 @@ body {
   font-size: 12px;
 }
 .form form input {
-  width: 327px;
+  width: 300px;
   height: 48px;
   top: 492px;
   left: 1252px;
@@ -66,8 +66,8 @@ body {
   
 }
 .form form button {
-  top: 648px;
+  top: 640px;
   left: 1252px;
-  width: 327px;
+  width: 300px;
   height: 48px;
 }
